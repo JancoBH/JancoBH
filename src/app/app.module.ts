@@ -11,6 +11,10 @@ import {getSpanishPaginatorIntl} from './shared/spanish-paginator-intl';
 import {SharedModule} from './shared/shared.module';
 import { NavbarComponent } from './components/ui/navbar/navbar.component';
 import { FooterComponent } from './components/ui/footer/footer.component';
+import {AngularFireModule} from '@angular/fire';
+import { environment } from '../environments/environment';
+import {AngularFirestoreModule} from '@angular/fire/firestore';
+import {AngularFireAuthModule} from '@angular/fire/auth';
 
 @NgModule({
   declarations: [
@@ -22,6 +26,9 @@ import { FooterComponent } from './components/ui/footer/footer.component';
   ],
   imports: [
     BrowserModule,
+    AngularFireModule.initializeApp(environment.firebase, 'JancoBH'),
+    AngularFirestoreModule, // imports firebase/firestore, only needed for database features
+    AngularFireAuthModule, // imports firebase/auth, only needed for auth features,
     AppRoutingModule,
     BrowserAnimationsModule,
     SharedModule
