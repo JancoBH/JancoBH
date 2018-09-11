@@ -15,6 +15,8 @@ import {AngularFireModule} from '@angular/fire';
 import { environment } from '../environments/environment';
 import {AngularFirestoreModule} from '@angular/fire/firestore';
 import {AngularFireAuthModule} from '@angular/fire/auth';
+import { PortafoliosComponent } from './components/portafolios/portafolios.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import {AngularFireAuthModule} from '@angular/fire/auth';
     HomeComponent,
     BlogComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    PortafoliosComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
