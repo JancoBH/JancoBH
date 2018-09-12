@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "jancobh-2"
+  },
+  "targets": {
+    "jancobh-2": {
+      "hosting": {
+        "jancobh": [
+          "jancobh"
+        ]
+      }
+    }
   }
 }

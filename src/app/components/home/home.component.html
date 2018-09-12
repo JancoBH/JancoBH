@@ -1,87 +1,60 @@
 <section class="main">
 
-  <div id=container>
-    <div>Hola, Mi nombre es Janco Boscan</div>
+  <div class="content">
+    <h1 style="margin: 2px 0 20px 0">Hola, Mi nombre es Janco Boscan</h1>
 
-    <!--A Cambiar-->
-    <div style="display: inline-flex; justify-content: center; align-items: center;">
-      <div id=flip>
-        <div><div> JavaScript Developer </div></div>
-        <div><div> Angular Developer </div></div>
-        <div><div> Frontend Developer </div></div>
+    <div style="display: inline-flex">
+      <span class="content__corchete">{{'{'}}</span>
+
+      <div class="content__container">
+        <p class="content__container__text">
+          Hello:
+        </p>
+
+        <ul class="content__container__list">
+          <li class="content__container__list__item">Angular !</li>
+          <li class="content__container__list__item">Firebase !</li>
+          <li class="content__container__list__item">Frontend !</li>
+          <li class="content__container__list__item">Javascript !</li>
+        </ul>
       </div>
+
+      <span class="content__corchete">{{'}'}}</span>
     </div>
-
-    <div>¡ Bienvenidos !</div>
-
   </div>
 
 </section>
 
-<section class="blog">
+<section class="blog" style="min-height: 400px;">
 
-  <div fxLayout="row wrap" style="justify-content: center; align-items: center; height: 100%;">
+  <h1 style="text-align: center; color: white; margin: 20px 0">Últimas entradas al Blog</h1>
 
-    <div fxFlex="10"></div>
+  <div fxLayout="row wrap" style="justify-content: center; align-items: center;">
 
-    <div fxFlex="80">
-      <div fxFlex="20">
-        <mat-card style="margin: 0 10px;">
-          <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
-          <mat-card-content>
-            <p>
-              The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-            </p>
-          </mat-card-content>
-        </mat-card>
+    <div fxFlex="10" fxHide.xs></div>
+
+    <div fxFlex="80" fxFlex.xs="100">
+
+      <div fxLayout="row wrap">
+
+        <div fxFlex="20" fxFlex.md="50" fxFlex.sm="100" fxFlex.xs="100" *ngFor="let blog of blogList">
+          <mat-card style="margin: 10px 10px;">
+            <img mat-card-image src="{{blog.img}}" alt="{{blog.title}}">
+            <mat-card-content>
+              <p>{{blog.title}}</p>
+            </mat-card-content>
+
+            <mat-card-actions style="text-align: center;">
+              <button mat-raised-button color="accent">VISITAR</button>
+            </mat-card-actions>
+          </mat-card>
+        </div>
+
       </div>
 
-      <div fxFlex="20">
-        <mat-card style="margin: 0 10px;">
-          <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
-          <mat-card-content>
-            <p>
-              The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-            </p>
-          </mat-card-content>
-        </mat-card>
-      </div>
-
-      <div fxFlex="20">
-        <mat-card style="margin: 0 10px;">
-          <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
-          <mat-card-content>
-            <p>
-              The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-            </p>
-          </mat-card-content>
-        </mat-card>
-      </div>
-
-      <div fxFlex="20">
-        <mat-card style="margin: 0 10px;">
-          <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
-          <mat-card-content>
-            <p>
-              The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-            </p>
-          </mat-card-content>
-        </mat-card>
-      </div>
-
-      <div fxFlex="20">
-        <mat-card style="margin: 0 10px;">
-          <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
-          <mat-card-content>
-            <p>
-              The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-            </p>
-          </mat-card-content>
-        </mat-card>
-      </div>
     </div>
 
-    <div fxFlex="10"></div>
+    <div fxFlex="10" fxHide.xs></div>
 
   </div>
 
