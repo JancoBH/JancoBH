@@ -1,11 +1,16 @@
 .main {
   height: 400px;
   background: #e52d27; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #e52d27, #b31217); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #e52d27, #b31217); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, rgba(229,45,39, 0.96), rgba(179,18,23, 0.96)), url("http://freebiejar.com/wp-content/uploads/2016/01/freebay.png"); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(229,45,39, 0.96), rgba(179,18,23, 0.96)), url("http://freebiejar.com/wp-content/uploads/2016/01/freebay.png"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 // aca inicia
+
+.content h1 {
+  margin: 2px 0 20px 0;
+  font-size: 2.5rem;
+}
 
 .content {
   display: flex;
@@ -121,19 +126,40 @@
 // aca finaliza
 
 .blog {
-  min-height: 400px;
+}
+
+.blog-content p {
+  height: 50px;
 }
 
 .whois {
-  height: 500px;
   background: #e52d27; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #e52d27, #b31217); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #e52d27, #b31217); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-//Media Queries
+// Breakpoints
 
 // xs
 @media (max-width: 599px) {
   .blog {margin: 30px 0; }
+  .content__container {padding: 0 12px;}
+  .content h1 {margin: 0 15px 30px 15px;}
+  .blog-content p {height: 100%;}
+}
+
+// sm
+@media (min-width: 600px) and (max-width: 959px) {
+  .content h1 {margin: 0 20px 30px 20px;}
+}
+
+// md
+@media (min-width: 960px) and (max-width: 1279px) {
+
+}
+
+@media (min-width: 1280px) and (max-width: 1919px) {
+}
+
+@media (min-width: 1920px) and (max-width: 5000px) {
 }
