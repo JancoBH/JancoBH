@@ -125,6 +125,37 @@
 
 // aca finaliza
 
+.tutorial {
+  min-height: 400px;
+}
+
+.tutorial-content p {
+  height: 50px;
+}
+
+.whois {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clip-path: polygon(0 6%, 100% 0, 100% 94%, 0 100%);
+  background: #e52d27;
+  background: linear-gradient(to right, rgba(229,45,39, 1), rgba(179,18,23, 1));
+  background-size: cover;
+  color: white;
+  min-height: 350px;
+}
+
+.whois h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.whois p {
+  margin: 20px;
+}
+
+// Blog
+
 .blog {
 }
 
@@ -132,19 +163,25 @@
   height: 50px;
 }
 
-.whois {
+// what
+
+.what {
   background: #e52d27; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #e52d27, #b31217); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #e52d27, #b31217); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: -webkit-linear-gradient(162deg, #e52d27 60%, #b31217 50%);
+  background: linear-gradient(162deg, #333333 60%, #b31217 50%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  min-height: 400px;
 }
 
 // Breakpoints
 
 // xs
 @media (max-width: 599px) {
+  .tutorial {margin: 30px 0; }
   .blog {margin: 30px 0; }
   .content__container {padding: 0 12px;}
   .content h1 {margin: 0 15px 30px 15px;}
+  .tutorial-content p {height: 100%;}
   .blog-content p {height: 100%;}
 }
 

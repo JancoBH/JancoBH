@@ -17,6 +17,18 @@ import {AngularFirestoreModule} from '@angular/fire/firestore';
 import {AngularFireAuthModule} from '@angular/fire/auth';
 import { PortafoliosComponent } from './components/portafolios/portafolios.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
+import {AngularFireStorageModule} from '@angular/fire/storage';
+import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { TutorialComponent } from './components/tutorial/tutorial.component';
+import { ComunidadComponent } from './components/comunidad/comunidad.component';
+import { TutorialDetailComponent } from './components/tutorial/tutorial-detail/tutorial-detail.component';
+
+// Add an icon to the library for convenient access in other components
+library.add(faTwitter, faLinkedin, faGithub);
 
 @NgModule({
   declarations: [
@@ -26,16 +38,21 @@ import { ContactoComponent } from './components/contacto/contacto.component';
     NavbarComponent,
     FooterComponent,
     PortafoliosComponent,
-    ContactoComponent
+    ContactoComponent,
+    TutorialComponent,
+    ComunidadComponent,
+    TutorialDetailComponent
   ],
   imports: [
     BrowserModule,
     AngularFireModule.initializeApp(environment.firebase, 'JancoBH'),
     AngularFirestoreModule, // imports firebase/firestore, only needed for database features
     AngularFireAuthModule, // imports firebase/auth, only needed for auth features,
+    AngularFireStorageModule, // imports firebase/storage only needed for storage features
     AppRoutingModule,
     BrowserAnimationsModule,
-    SharedModule
+    SharedModule,
+    FontAwesomeModule
   ],
   providers: [
     { provide: MatPaginatorIntl, useValue: getSpanishPaginatorIntl() }

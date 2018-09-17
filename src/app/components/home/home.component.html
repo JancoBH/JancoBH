@@ -25,25 +25,27 @@
 
 </section>
 
-<section class="blog">
+<section class="tutorial">
 
-  <h1 style="text-align: center; color: white; margin: 20px 0">Últimas entradas al Blog</h1>
+  <h1 style="text-align: center; color: white; margin: 20px 0">Últimos Tutoriales</h1>
 
-  <div fxLayout="row wrap" style="justify-content: center; align-items: center; margin-bottom: 25px">
+  <div fxLayout="row wrap" style="justify-content: center; align-items: center;">
 
     <div fxFlex="10" fxHide.sm fxFlex.xs="5"></div>
 
     <div fxFlex="80" fxFlex.sm="100" fxFlex.xs="90">
 
-      <div fxLayout="row wrap">
+      <div fxLayout="row wrap" style="justify-content: center;">
 
-        <div fxFlex="20" fxFlex.md="25" fxFlex.sm="50" fxFlex.xs="100" *ngFor="let blog of blogList">
-          <mat-card style="margin: 10px 10px;">
-            <img mat-card-image src="{{blog.img}}" alt="{{blog.title}}">
-            <mat-card-content class="blog-content">
-              <p>{{blog.title}}</p>
-            </mat-card-content>
-          </mat-card>
+        <div fxFlex="20" fxFlex.md="33.33" fxFlex.sm="50" fxFlex.xs="100" *ngFor="let tuto of tutorials | async">
+          <a routerLink="/tutorial/{{tuto.$key}}">
+            <mat-card style="margin: 10px 10px;">
+              <img mat-card-image src="{{tuto.img}}" alt="{{tuto.title}}">
+              <mat-card-content class="tutorial-content">
+                <p>{{tuto.title}}</p>
+              </mat-card-content>
+            </mat-card>
+          </a>
         </div>
 
       </div>
@@ -60,11 +62,104 @@
 
   <div fxLayout="row wrap">
 
-    <h1 fxFlex="100" style="text-align: center; color: white; margin: 20px 0">¿Quien soy y Por qué esta web?</h1>
+    <div fxFlex="50">
+
+      <h1>¿Quien soy?</h1>
+
+      <p>
+        Hola, mi nombre es Janco Boscan, Soy Ingeniero de Computación y actualmente trabajo como Frontend Developer con Angular.
+      </p>
+
+      <p>
+        Interesado en Tecnologías Web como #Angular #Firebase #Redux #MaterialDesign #PWA
+      </p>
+
+      <p>
+        Más información sobre mi en:
+        <a href="https://twitter.com/JancoBH" style="color: white" target="_blank"><fa-icon style="margin: 0 5px;" [icon]="['fab', 'twitter']" size="2x"></fa-icon></a>
+        <a href="https://www.linkedin.com/in/jancobh/" style="color: white" target="_blank"><fa-icon style="margin: 0 5px;" [icon]="['fab', 'linkedin']" size="2x"></fa-icon></a>
+        <a href="https://github.com/JancoBH" style="color: white" target="_blank"><fa-icon style="margin: 0 5px;" [icon]="['fab', 'github']" size="2x"></fa-icon></a>
+      </p>
+
+
+    </div>
+
+    <div fxFlex="50">
+
+      <h1>¿Por qué esta web?</h1>
+
+      <p>
+        Esta web nace con el propósito de formar una comunidad interesada en desarrollo web con Angular como herramienta principal y otras tecnologías Javascript,
+        el objetivo principal será poder ayudar a todas aquellas personas que estén interesadas en las tecnologías usadas en los tutoriales, blogs y aportes de la
+        comunidad.
+      </p>
+
+      <p>
+        Aunque la web lleve mi nombre y también me sirva como una especie de portafolio, otro objetivo es también poder ayudar a todas aquellas personas que pueden
+        tener ciertos problemas con el idioma ingles a la hora de consumir contenido similar que únicamente se encuentra en ingles.
+      </p>
+
+    </div>
 
 
   </div>
 
 </section>
 
-<section></section>
+<section class="blog">
+
+  <h1 style="text-align: center; color: white; margin: 20px 0">Últimas entradas al Blog</h1>
+
+  <div fxLayout="row wrap" style="justify-content: center; align-items: center; margin-bottom: 25px">
+
+    <div fxFlex="10" fxHide.sm fxFlex.xs="5"></div>
+
+    <div fxFlex="80" fxFlex.sm="100" fxFlex.xs="90">
+
+      <div fxLayout="row wrap" style="justify-content: center;">
+
+        <div fxFlex="20" fxFlex.md="25" fxFlex.sm="33.33" fxFlex.xs="100" *ngFor="let b of blog">
+          <mat-card style="margin: 10px 10px;">
+            <img mat-card-image src="{{b.img}}" alt="{{b.title}}">
+            <mat-card-content class="blog-content">
+              <p>{{b.title}}</p>
+            </mat-card-content>
+          </mat-card>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div fxFlex="10" fxHide.sm fxFlex.xs="5"></div>
+
+  </div>
+
+
+</section>
+
+<section class="what">
+
+  <div fxLayout="row wrap">
+
+    <h1 fxFlex="100" style="text-align: center; color: white; margin: 20px 0">Algunas Tecnologías que aprenderás acá</h1>
+
+    <div fxFlex="10" fxHide.sm fxFlex.xs="5"></div>
+
+    <div fxFlex="80" fxFlex.sm="100" fxFlex.xs="90">
+
+      <mat-card>
+        <div fxLayout="row wrap">
+          <div *ngFor="let tech of techList" fxFlex="12.5" fxFlex.md="25" fxFlex.sm="25" fxFlex.xs="50" style="display: flex; flex-direction: column; align-items: center">
+            <img src="{{tech.img}}" alt="{{tech.title}}" style="height: 100px;">
+            <p>{{tech.title}}</p>
+          </div>
+        </div>
+      </mat-card>
+    </div>
+
+    <div fxFlex="10" fxHide.sm fxFlex.xs="5"></div>
+
+  </div>
+
+</section>
