@@ -1,13 +1,23 @@
-<div class="tutorial-detail-content">
-  <div fxFlex="20" fxHide.sm fxFlex.xs="5"></div>
+<section class="tutorial-header-content" [ngStyle]="{'background': 'linear-gradient(to right,' + tutorialData?.colors[0] + ', ' + tutorialData?.colors[1] + ')'}">
+  <div fxFlex="10" fxHide.sm fxFlex.xs="5"></div>
 
-  <div fxFlex="60">
-    <img src="{{tutorialData?.img}}" alt="" width="100%">
-    <div>{{tutorialData?.title}}</div>
+  <div fxFlex="80">
+    <h1>{{tutorialData?.title}}</h1>
+    <p>
+      {{tutorialData?.desc}}
+    </p>
+    <div class="button-row">
+      <button mat-stroked-button color="warn">Ver Demo</button>
+      <button mat-raised-button color="warn">Mira el Código</button>
+    </div>
   </div>
 
+  <div fxFlex="10" fxHide.sm fxFlex.xs="5"></div>
 
+</section>
 
-  <div fxFlex="20" fxHide.sm fxFlex.xs="5"></div>
+<section class="tutorial-detail-content">
 
-</div>
+  <h1>Próximamente estará disponible el contenido</h1>
+
+</section>

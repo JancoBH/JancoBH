@@ -1,4 +1,50 @@
-.tutorial-detail-content {
-  min-height: 80vh;
+.tutorial-header-content {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  height: 450px;
   color: white;
+}
+
+.tutorial-header-content h1 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  margin: 0;
+}
+
+.tutorial-header-content p {
+  font-size: 2rem;
+  line-height: 39px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 20%;
+  padding-top: 20px;
+  font-weight: 300;
+}
+
+.tutorial-header-content .button-row {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.tutorial-header-content .button-row button {
+  margin: 0 10px;
+}
+
+.tutorial-detail-content {
+  display: flex;
+  //align-items: center;
+  //align-content: center;
+  justify-content: center;
+  min-height: 70vh;
+  margin-top: 40px;
+}
+
+.tutorial-detail-content h1 {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
 }
