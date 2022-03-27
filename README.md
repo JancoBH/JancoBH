@@ -31,7 +31,7 @@
    <img alt="Angular Material" src="https://img.shields.io/badge/-Angular_Material-%231a202c?style=flat-square&logo=angular&logoColor=ffa712" />
    <img alt="Tailwind" src="https://img.shields.io/badge/-TailwindCss-%231a202c?style=flat-square&logo=tailwind-css" />
    <img alt="Bootstrap" src="https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white" />
-   <img alt="ANT Design" src="https://img.shields.io/badge/Ant%20Design-1890FF?style=for-the-badge&logo=antdesign&logoColor=white" />
+   <img alt="ANT Design" src="https://img.shields.io/badge/Ant%20Design-1890FF?style=flat-square&logo=antdesign&logoColor=white" />
    <br>
    <img alt="webstorm" src="https://img.shields.io/badge/-WebStorm-000000?style=flat-square&logo=webstorm" />
    <img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
@@ -39,9 +39,8 @@
    <img alt="Heroku" src="https://img.shields.io/badge/-Heroku-430098?style=flat-square&logo=heroku&logoColor=white" />
    <img alt="Firebase" src="https://img.shields.io/badge/-Firebase-ffa712?style=flat-square&logo=firebase&logoColor=white" />
    <img alt="VITE" src="https://img.shields.io/badge/-Vite-B73BFE?style=flat-square&logo=Vite&logoColor=FFD62E" />
-   <br>
-   <img alt="ESLINT" src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white" />
-   <img alt="Jira" src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white" />
+   <img alt="ESLINT" src="https://img.shields.io/badge/eslint-3A33D1?style=flat-square&logo=eslint&logoColor=white" />
+   <img alt="Jira" src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=Jira&logoColor=white" />
 </p>
 
 ## 📖 Learning / Pending to Learn
@@ -50,9 +49,9 @@
    <img alt="Docker" src="https://img.shields.io/badge/-Docker-2CA5E0?style=flat-square&logo=docker&logoColor=white" />
    <img alt="React Native" src="https://img.shields.io/badge/-React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
    <img alt="Figma" src="https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" />
-   <img alt="Storybook" src="https://img.shields.io/badge/storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white" />
-   <img alt="AWS" src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
-   <img alt="GraphQL" src="https://img.shields.io/badge/GraphQl-E10098?style=for-the-badge&logo=graphql&logoColor=white" />
+   <img alt="Storybook" src="https://img.shields.io/badge/storybook-FF4785?style=flat-square&logo=storybook&logoColor=white" />
+   <img alt="AWS" src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
+   <img alt="GraphQL" src="https://img.shields.io/badge/GraphQl-E10098?style=flat-square&logo=graphql&logoColor=white" />
 </p>
 
 ## 🔎 Where to Find Me
