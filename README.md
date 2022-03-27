@@ -37,7 +37,7 @@
    <img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
    <img alt="npm" src="https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white" />
    <img alt="Heroku" src="https://img.shields.io/badge/-Heroku-430098?style=flat-square&logo=heroku&logoColor=white" />
-   <img alt="Firebase" src="https://img.shields.io/badge/-Firebase-ffa712?style=flat-square&logo=firebase&logoColor=white" />
+   <img alt="Firebase" src="https://img.shields.io/badge/-Firebase-ffa712?style=flat-square&logo=firebase&logoColor=black" />
    <img alt="VITE" src="https://img.shields.io/badge/-Vite-B73BFE?style=flat-square&logo=Vite&logoColor=FFD62E" />
    <img alt="ESLINT" src="https://img.shields.io/badge/eslint-3A33D1?style=flat-square&logo=eslint&logoColor=white" />
    <img alt="Jira" src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=Jira&logoColor=white" />
