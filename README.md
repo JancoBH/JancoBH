@@ -20,16 +20,13 @@
    <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
    <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript" />
    <img alt="redux" src="https://img.shields.io/badge/-Redux-764ABC?style=flat-square&logo=redux&logoColor=white" />
-   <img alt="ReactiveX" src="https://img.shields.io/badge/-RxJs-B7178C?style=flat-square&logo=reactivex&logoColor=white" />
    <br>
    <img alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" />
    <img alt="Express" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=flat-square&logo=express&logoColor=%2361DAFB" />
    <img alt="NextJS" src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
    <img alt="NestJS" src="https://img.shields.io/badge/nestjs-%23E0234E.svg?style=flat-square&logo=nestjs&logoColor=white" />
    <img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white" />
-   <img alt="GraphQL" src="https://img.shields.io/badge/GraphQl-E10098?style=flat-square&logo=graphql&logoColor=white" />
    <br>
-   <img alt="Sass" src="https://img.shields.io/badge/-Sass-CC6699?style=flat-square&logo=sass&logoColor=white" />
    <img alt="Angular Material" src="https://img.shields.io/badge/-Angular_Material-%231a202c?style=flat-square&logo=angular&logoColor=ffa712" />
    <img alt="Tailwind" src="https://img.shields.io/badge/-TailwindCss-%231a202c?style=flat-square&logo=tailwind-css" />
    <img alt="Bootstrap" src="https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white" />
@@ -41,18 +38,9 @@
    <img alt="Storybook" src="https://img.shields.io/badge/storybook-FF4785?style=flat-square&logo=storybook&logoColor=white" />
    <img alt="Testinglibrary" src="https://img.shields.io/badge/-TestingLibrary-%23E33332?style=flat-square&logo=testing-library&logoColor=white" />
    <br>
-   <img alt="Heroku" src="https://img.shields.io/badge/-Heroku-430098?style=flat-square&logo=heroku&logoColor=white" />
    <img alt="Firebase" src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=flat-square&logo=firebase" />
-   <img alt="Digital Ocean" src="https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=flat-square&logo=digitalOcean&logoColor=white" />
    <img alt="Vercel" src="https://img.shields.io/badge/vercel-%23000000.svg?style=flat-square&logo=vercel&logoColor=white" />
-   <img alt="Cloudflare" src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=Cloudflare&logoColor=white" />
-   <br>
-   <img alt="webstorm" src="https://img.shields.io/badge/-WebStorm-000000?style=flat-square&logo=webstorm" />
-   <img alt="VS Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=flat-square&logo=visual-studio-code&logoColor=white" />
-   <img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
-   <img alt="npm" src="https://img.shields.io/badge/NPM-%23000000.svg?style=flat-square&logo=npm&logoColor=white" />
    <img alt="VITE" src="https://img.shields.io/badge/-Vite-B73BFE?style=flat-square&logo=Vite&logoColor=FFD62E" />
-   <img alt="Jira" src="https://img.shields.io/badge/jira-%230A0FFF.svg?style=flat-square&logo=jira&logoColor=white" />
 </p>
 
 ## 📖 Learning / Pending to Learn
@@ -83,6 +71,7 @@
    <img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" />
    <img alt="Twitter" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" />
    <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+   <img alt="Heroku" src="https://img.shields.io/badge/-Heroku-430098?style=flat-square&logo=heroku&logoColor=white" />
 
 
 Here are some ideas to get you started:
@@ -95,4 +84,14 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+
+   <img alt="ReactiveX" src="https://img.shields.io/badge/-RxJs-B7178C?style=flat-square&logo=reactivex&logoColor=white" />
+   <img alt="npm" src="https://img.shields.io/badge/NPM-%23000000.svg?style=flat-square&logo=npm&logoColor=white" />
+   <img alt="Jira" src="https://img.shields.io/badge/jira-%230A0FFF.svg?style=flat-square&logo=jira&logoColor=white" />
+   <img alt="webstorm" src="https://img.shields.io/badge/-WebStorm-000000?style=flat-square&logo=webstorm" />
+   <img alt="VS Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=flat-square&logo=visual-studio-code&logoColor=white" />
+   <img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
+   <img alt="GraphQL" src="https://img.shields.io/badge/GraphQl-E10098?style=flat-square&logo=graphql&logoColor=white" />
+   <img alt="Sass" src="https://img.shields.io/badge/-Sass-CC6699?style=flat-square&logo=sass&logoColor=white" />
+
 -->
