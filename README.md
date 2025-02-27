@@ -47,8 +47,6 @@
 <p>   
    <img alt="Docker" src="https://img.shields.io/badge/-Docker-2CA5E0?style=flat-square&logo=docker&logoColor=white" />
    <img alt="kubernetes" src="https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=flat-square&logo=kubernetes&logoColor=white" />
-   <img alt="React Native" src="https://img.shields.io/badge/-React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-   <img alt="Figma" src="https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" />
    <img alt="AWS" src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
 </p>
 
