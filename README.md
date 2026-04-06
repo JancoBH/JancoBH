@@ -3,13 +3,15 @@
 </p>
 
 <p align="center">
-   I'm a <strong>Front-end JavaScript Developer</strong> with more than 5 years of experience.
-   <br />
-   I graduated as a <strong>Computer Engineer</strong> at the end of 2015.
-   <br />
-   From Venezuela, currently living in Argentina, <strong>wanting to live in Canada</strong>.
+   I'm a <strong>Front-end JavaScript Developer</strong> with 10+ years of experience building scalable, high-performance web applications.
    <br /><br />
-   ¡Read more about me 👇!
+   I specialize in modern frameworks like <strong>React, Angular, and TypeScript</strong>, focusing on clean architecture, performance, and user experience.
+   <br /><br />
+   I graduated as a <strong>Computer Engineer</strong> in 2015 and have been continuously evolving in both web and game development.
+   <br /><br />
+   Currently, I'm also building my own projects in <strong>Unity</strong> for mobile.
+   <br /><br />
+   🚀 Always learning. Always building.
 </p>
 
 ## ⚡ My Current Tech / Tools Stack
@@ -19,7 +21,6 @@
    <img alt="React" src="https://img.shields.io/badge/-React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
    <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
    <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript" />
-   <img alt="redux" src="https://img.shields.io/badge/-Redux-764ABC?style=flat-square&logo=redux&logoColor=white" />
    <br>
    <img alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" />
    <img alt="Express" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=flat-square&logo=express&logoColor=%2361DAFB" />
@@ -40,14 +41,6 @@
    <img alt="Firebase" src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=flat-square&logo=firebase" />
    <img alt="Vercel" src="https://img.shields.io/badge/vercel-%23000000.svg?style=flat-square&logo=vercel&logoColor=white" />
    <img alt="VITE" src="https://img.shields.io/badge/-Vite-B73BFE?style=flat-square&logo=Vite&logoColor=FFD62E" />
-</p>
-
-## 📖 Learning / Pending to Learn
-
-<p>   
-   <img alt="Docker" src="https://img.shields.io/badge/-Docker-2CA5E0?style=flat-square&logo=docker&logoColor=white" />
-   <img alt="kubernetes" src="https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=flat-square&logo=kubernetes&logoColor=white" />
-   <img alt="AWS" src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
 </p>
 
 ## 🔎 Where to Find Me
